@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: "Bangers";
+    src: url(./font/Bangers.ttf);
+}
+
+@font-face {
+    font-family:"Souliyo" ;
+    src: url(./font/souliyo-regular.ttf);
+}
+body{
+    height: 98vh;
+    background-image: url(./images/backgroundcomics.png);
+}
+
+.accueil{
+    height: 100%;   
+}
+
+
+
+/*MOBILE FIRST*/
+
+@media  (max-width:375px) {
+    .accueil{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }  
+    .conttitre{
+        height: 15%;
+        width: 75%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    h1{
+        font-family: "Bangers";
+        text-align: center;
+        font-size: 2em;
+    }
+    .contintro{
+        height: 15%;
+        width: 75%;
+        background: rgba(245, 245, 245, 0.58);
+    }
+    .pintro{
+        font-family: "Souliyo";
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,5 @@
+API Marvel:
+
+Clé publique: b9e37f7322c6fc59ee25584611adc46d
+
+Clé privée: 84fd8e50cc15e3805286808c4999339099c57a1c
