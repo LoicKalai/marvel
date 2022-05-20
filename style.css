@@ -18,16 +18,7 @@ footer i{
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-  -webkit-justify-content: center;
-    align-items: center;
-  -webkit-align-items: center;
+
 }
 
 body {
@@ -35,7 +26,18 @@ body {
   height: 100vh; */
     background-color: #eaeaea;
 }
-
+#container{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+-webkit-justify-content: center;
+  align-items: center;
+-webkit-align-items: center;
+}
 .carousel {
     width: 90%;
     height: 90%;
