@@ -68,7 +68,6 @@ const carousel = () => {
     }
 
     const nextCarousel = document.querySelector(".carousel-item--" + p);
-    console.log(currentCarousel);
     currentCarousel.classList.remove("active");
     nextCarousel.classList.add("active");
 
