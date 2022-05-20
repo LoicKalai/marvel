@@ -3,6 +3,7 @@
 # Projet Marvel
 ## API Marvel
 [![Projet](https://adriens1010.promo-106.codeur.online/images/projet-api-marvel.svg)](https://adriens1010.promo-106.codeur.online/images/projet-api-marvel.svg)
+
 Ce projet consiste à récupérer des données grâce à l'API de Marvel. 
 
 ## Description
