@@ -7,21 +7,51 @@ const lifeStory6 = document.querySelector(".lifeStory6");
 fetch(url)
   .then((resp) => resp.json())
   .then((data) => {
-    lifeStory6.src = data.data.results[0].images[0].path + ".jpg";
+    /* lifeStory6.src = data.data.results[0].images[0].path + ".jpg"; */
   });
 
-// barre  de nav
-const bourger = document.getElementById("nav-toggle");
-const content = document.getElementById("nav-content");
-bourger.addEventListener("click", function () {
-  content.classList.toggle("hidden");
-  content.style.display = "flex";
+// Burger menus
+document.addEventListener('DOMContentLoaded', function() {
+    // open
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    // close
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
 });
-content.addEventListener("click", function () {
-  if (document.querySelector("body").clientWidth < "1023") {
-    content.style.display = "none";
-  }
-});
+
+// Carousel
 
 let t = 0;
 let p = 0;
@@ -68,7 +98,6 @@ const carousel = () => {
     }
 
     const nextCarousel = document.querySelector(".carousel-item--" + p);
-    console.log(currentCarousel);
     currentCarousel.classList.remove("active");
     nextCarousel.classList.add("active");
 
