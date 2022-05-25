@@ -35,15 +35,6 @@
         
     }
  
-    .placep1{
-        height: 100%;
-        width: 100%;
-        background: rgba(245, 245, 245, 0.58);
-        display: flex;
-        align-items: center;
-        transform: skew(20deg);
-        margin: auto;
-    }
     .pintro{
         font-family: "Souliyo";
         font-size: 1.3em;
@@ -60,7 +51,169 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-    
+  } 
 }
+
+@media screen and (min-width:480px){
+    .accueil{
+        height: 100%;
+        background-image: url(../images/backgroundcomics.png);
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    } 
+  
+    .conttitre{
+        height: 15%;
+        width: 100%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    h1{
+        font-family: "Bangers";
+        text-align: center;
+
+    }
+    .contintro{
+        height: 15%;
+        width: 80%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        align-items: center;
+        transform: skew(20deg);
+        margin: auto;
+    }
+ 
+    .pintro{
+        width: 100%;
+        font-family: "Souliyo";
+        font-size: 1.3em;
+        text-align: center;
+    }
+   #container{
+     visibility: hidden;
+     display: none;
+   }
+
+   .placeTetInt{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }   
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .accueil{
+        height: 100%;
+        background-image: url(../images/backgroundcomics.png);
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    } 
+  
+    .conttitre{
+        height: 15%;
+        width: 100%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    h1{
+        font-family: "Bangers";
+        text-align: center;
+
+    }
+    .contintro{
+        height: 15%;
+        width: 80%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        align-items: center;
+        transform: skew(20deg);
+        margin: auto;
+    }
+ 
+    .pintro{
+        width: 100%;
+        font-family: "Souliyo";
+        font-size: 1.6em;
+        text-align: center;
+        font-weight: bold;
+    }
+   #container{
+     visibility: hidden;
+     display: none;
+   }
+
+   .placeTetInt{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }  
+}
+
+@media screen and (min-width:1025px) {
+
+    .accueil{
+        height: 100%;
+        background-image: url(../images/backgroundcomics.png);
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    } 
+  
+    .conttitre{
+        height: 15%;
+        width: 100%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    h1{
+        font-family: "Bangers";
+        text-align: center;
+
+    }
+    .contintro{
+        height: 15%;
+        width: 80%;
+        background: rgba(245, 245, 245, 0.58);
+        display: flex;
+        align-items: center;
+        transform: skew(20deg);
+        margin: auto;
+    }
+ 
+    .pintro{
+        width: 100%;
+        font-family: "Souliyo";
+        font-size: 1.6em;
+        text-align: center;
+        font-weight: bold;
+    }
+   #container{
+        visibility: hidden;
+        display: none;
+   }
+
+.placeTetInt{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+  } 
+}
+
   
