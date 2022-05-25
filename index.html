@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./responsive.css">
     <!-- Icones -->
     <script
       src="https://kit.fontawesome.com/ae29616080.js"
@@ -32,72 +32,76 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="">
+  <body class="lg:overflow-hidden">
 
     
 
       <!--SECTION ACCUEIL-->
-      <section class="accueil">
-        <header>
-      <!-- barre nav -->
-      <nav class="lg:hidden relative px-4 py-4 flex justify-between items-center bg-transparent">
+  <section class="accueil">
+            <header>
+          <!-- barre nav -->
+          <nav class="lg:hidden relative px-4 py-4 flex justify-between items-center bg-transparent">
 
 
-		
-		<div class="w-full lg:hidden flex justify-end">
-			<button class="navbar-burger flex items-center text-blue-600 p-3">
-				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<title>Mobile menu</title>
-					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-				</svg>
-			</button>
-		</div>
-		
-	</nav>
-	<div class="navbar-menu relative z-50 hidden">
-		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
-			<div class="w-full flex items-center justify-end mb-8">
-				
-				<button class="navbar-close">
-					<svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-					</svg>
-				</button>
-			</div>
-			<div>
-				<ul>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #1</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #2</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #3</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #4</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #5</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #6</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-    </header>
-        <div class="conttitre">
-            <h1 class="text-slate-800 text-4xl">Les 4 Fantastiques</h1>
-        </div>  
-  
-        <div class="contintro mt-4">
-            <p class="pintro">Retrouvez  quelques comics des célèbres 4 Fantastiques datant de 2021!</p>
+        
+        <div class="w-full lg:hidden flex justify-end">
+          <button class="navbar-burger flex items-center text-blue-600 p-3">
+            <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
         </div>
-      </section>
+        
+      </nav>
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+          <div class="w-full flex items-center justify-end mb-8">
+            
+            <button class="navbar-close">
+              <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #1</a>
+              </li>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #2</a>
+              </li>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #3</a>
+              </li>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #4</a>
+              </li>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #5</a>
+              </li>
+              <li class="mb-1">
+                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Fantastic Four : Life's Story #6</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+        </header>
+        <div class="placeTetInt"> <!--PLACER LE TITRE ET LE CONTENU DE L'ACCEUIL-->
+            <div class="conttitre">
+                <h1 class="text-slate-800 text-4xl">Les 4 Fantastiques</h1>
+            </div> 
+          
+            <div class="contintro">
+              <p class="pintro">Retrouvez quelques comics des célèbres 4 Fantastiques datant de 2021!</p>
+            </div>
+          
+
+        </div> <!--FIN DU PLACEMENT-->
+  </section>
     <!--FIN DE SECTION ACCUEIL-->
 
     <section id="container">

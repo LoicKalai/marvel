@@ -6,10 +6,7 @@ body {
     height: 100vh; 
     background-color: #eaeaea;
 }
-/* 
-nav{
-    display: none!important;
-} */
+
 
 #container{
   margin: 0;
@@ -27,9 +24,8 @@ nav{
     width: 90%;
     height: 90%;
     display: flex;
-
     overflow: hidden;
-  position: relative;
+    position: relative;
 }
 
 .carousel-item {
@@ -55,11 +51,9 @@ nav{
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-    display: -webkit-flex;
+  display: -webkit-flex;
   -webkit-justify-content: center;
   -webkit-flex-direction: column;
-
   order: 1;
   left: 0;
   margin: auto;
@@ -214,52 +208,4 @@ footer i{
     }
 }
 
-
-
-/*MOBILE FIRST*/
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { /*PHONE*/
-  .accueil{
-      height: 100%;
-      background-image: url(../images/backgroundcomics.png);
-      /* display: flex;
-      align-items: center;
-      justify-content: space-around; */
-      flex-direction: column;
-      background-repeat: no-repeat;
-      background-size: cover;
-  } 
-
-  .conttitre{
-      height: 15%;
-      width: 75%;
-      background: rgba(245, 245, 245, 0.58);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 5%;
-  }
-  h1{
-      font-family: "Bangers";
-      text-align: center;
-      /* font-size: 2em!important; */
-  }
-  .contintro{
-      height: 15%;
-      width: 75%;
-      background: rgba(245, 245, 245, 0.58);
-      display: flex;
-      align-items: center;
-  }
-  .pintro{
-      font-family: "Souliyo";
-      font-size: 1.3em;
-      text-align: center;
-  }
- #container{
-   visibility: hidden;
-   display: none;
- }
-  
-}
 
